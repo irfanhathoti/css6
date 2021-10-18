@@ -1,0 +1,206 @@
+.links
+{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+
+}
+.cntainer
+{
+    right: 35px;
+    top: 20px;
+    margin: 15px;
+    position: absolute;
+}
+.menu
+{
+    background-color: rgba(255, 255, 255, 0.514);
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+}
+.box
+{
+    background-image: url(./pic-1.png);
+    background-repeat: no-repeat;
+    background-size: 260px 290px;
+    border-radius: 20px;
+    text-align: center;
+    height: 290px;
+    /* display: inline-block; */
+    width: 260px;
+    color: white;
+    margin: 20px;
+    transition:transform 0.4s;
+}
+.box:hover
+{
+    transform: translateY(-20px);
+}
+.box1
+{
+    background-image: url(./pic-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: center;
+    height: 290px;
+    width: 260px;
+    /* display: inline-block; */
+    color: white;
+    margin: 20px;
+    transition: transform 0.4s;
+}
+.box1:hover
+{
+    transform: translateY(-20px);
+}
+
+.box2
+{
+    background-image: url(./pic-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: center;
+    height: 290px;
+    width: 260px;
+    /* display: inline-block; */
+    color: white;
+    margin: 20px;
+    transition: transform 0.4s;
+}
+.box2:hover
+{
+    transform: translateY(-20px);
+}
+.box3
+{
+    background-image: url(./pic-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: center;
+    height: 290px;
+    width: 260px;
+    /* display: inline-block; */
+    margin: 20px;
+    color: white;
+    transition: transform 0.4s;
+}
+.box3:hover
+{
+    transform: translateY(-20px);
+}
+.cont
+{
+    width: 610px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 60px;
+    /* align-items: center; */
+    top: 80px;
+
+}
+.parent
+{
+    margin-left: 130px;
+    margin-top: 200px;
+}
+
+.head
+{
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+
+}
+.img
+{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.para
+{
+    color:white;
+
+}
+.body
+{
+    background-image: url(./shara_desert.jpg);
+    /* background-repeat:no-repeat; */
+    background-size: cover;
+}
+.parent1
+{
+    height: 18px;
+    width: 120px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+
+}
+.btn
+{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+@media screen and (max-width:856px)
+{
+    .cont
+    {
+        flex-direction: column;
+        margin-top: 410px;
+        margin-right: -615px;
+    }
+    .parent
+    {
+        margin-top: 50px;
+        margin-left: 300px;
+        width: 200px;
+    }
+    .cntainer
+    {
+        width: 150px;
+        margin-right: -470px;
+    }
+
+    .box
+    {
+        display: block;
+        width: 300px;
+    }
+    .box1
+    {
+        display: block;
+        width: 700px;
+    }
+    .box2
+    {
+        display: block;
+        width: 700px;
+    }
+   .box3
+   {
+    display: block;
+    width: 700px;
+   }
+  
+    
+}
+@media screen and (max-width:360px)
+{
+    /* .body
+    {
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */
+
+}
